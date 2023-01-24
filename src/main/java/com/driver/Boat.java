@@ -1,5 +1,6 @@
 package com.driver;
 
+import java.util.*;
 public class Boat implements WaterVehicle{
 
     String name;
