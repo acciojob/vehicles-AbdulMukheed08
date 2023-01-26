@@ -3,8 +3,8 @@ package com.driver;
 import java.util.*;
 public class Boat implements WaterVehicle{
 
-    String name;
-    int capacity;
+    private String name;
+    private int capacity;
 
     public Boat(String name,int capacity){
         this.name = name;
@@ -19,21 +19,5 @@ public class Boat implements WaterVehicle{
     @Override
     public int getVehicleCapacity() {
         return capacity;
-    }
-
-    public java.lang.String getName() {
-        return name;
-    }
-
-    public void setName(java.lang.String name) {
-        this.name = name;
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
     }
 }
